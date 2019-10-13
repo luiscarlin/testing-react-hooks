@@ -8,7 +8,8 @@
   "scripts": {
     "start": "parcel index.html --port 3000 --open",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -23,7 +24,9 @@
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.2.3",
     "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
